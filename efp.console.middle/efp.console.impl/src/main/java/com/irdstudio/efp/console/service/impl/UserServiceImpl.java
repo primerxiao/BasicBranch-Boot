@@ -29,7 +29,7 @@ import java.util.Map;
  * In-Memory {@link UserService} implementation.
  */
 @DubboService(protocol = "dubbo")
-public class InMemoryUserService implements UserService {
+public class UserServiceImpl implements UserService {
 
 	private Map<Long, User> usersRepository = new HashMap<Long, User>();
 
